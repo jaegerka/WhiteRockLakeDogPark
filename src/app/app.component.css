@@ -1,0 +1,54 @@
+#content {
+    background-color: #dbdbdb86;
+}
+.jumbotron {
+    text-align: center;
+    height: 10%;
+    background-color: #75b09c88;
+    margin-bottom: 0%
+}
+
+#parkhours {
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+#parkrules {
+    margin-right: 2.5%;
+}
+
+.row {
+    size: 40%;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+small {
+    font-size: 70%;
+}
+
+.subtext {
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    margin-top: 0;
+}
+
+#address {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.subheader {
+    height: 200px;
+}
+
+#pictureUpload {
+    text-align: center;
+}
+
+.alert {
+    margin-bottom: 0;
+    text-align: center;
+}

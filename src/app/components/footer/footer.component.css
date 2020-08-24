@@ -1,0 +1,13 @@
+footer {
+    background-color: #75b09c88;
+    color: black;
+}
+
+img {
+    width: 25px;
+}
+
+.text-center {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

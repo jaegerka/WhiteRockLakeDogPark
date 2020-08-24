@@ -1,0 +1,72 @@
+<div id="parkrules">
+  <div class="row"> 
+    <div class="col-6">
+      <h2>White Rock Lake Dog Park Rules</h2>
+        <p>
+          All dogs must be at least 6 months old & up to date on vaccinations.
+          <small class="expand" (click)="expandVaccinations()" *ngIf="vaccinationsmore">(more)</small>
+          <small class="expand" (click)="expandVaccinations()" *ngIf="!vaccinationsmore">(less)</small>
+          <br>
+        </p>
+        <div class="subtext" *ngIf="vaccinationsExpanded">
+          <small>Puppies who have not had all three rounds of their puppy boosters are NOT protected against contagious viruses like PARVO, DISTEMPER, HEPATITIS and LEPTOSPIROSIS. 
+            They can also contract intestinal parasites if they are not on a Heartworm preventative with a parasite preventative element. 
+            Their little bodies cannot fight these infections if they are exposed to these illnesses and parasites.</small>
+          </div>
+        <p>
+          No unsterilized dogs are allowed in either park.
+          <small class="expand" (click)="expandSterilization()" *ngIf="sterilizationsmore">(more)</small>
+          <small class="expand" (click)="expandSterilization()" *ngIf="!sterilizationsmore">(less)</small>
+        </p>
+          <div class="subtext" *ngIf="sterilizationExpanded">
+            <small>ALL dogs must be sterilizied or have a special permit/tag for an intact dog.
+              ALL dogs must be wearing tags including city registration.</small>
+          </div>
+      <p>
+        There is a maximum of three dogs per person.
+        <small class="expand" (click)="expandMaxDogs()" *ngIf="maxdogsmore">(more)</small>
+        <small class="expand" (click)="expandMaxDogs()" *ngIf="!maxdogsmore">(less)</small>
+        <br>
+      </p>
+        <div class="subtext" *ngIf="maxDogsExpanded">
+          <small>This mainly applies to dog walkers. If there is a problem there is no way one person can control the situation. BE SAFE.</small>
+        </div>
+      <p>
+        Please do not bring food or treats into the park.
+      </p>
+      <p>
+        Always pick up after your pet.
+        <small class="expand" (click)="expandPickup()" *ngIf="pickupmore">(more)</small>
+        <small class="expand" (click)="expandPickup()" *ngIf="!pickupmore">(less)</small>
+      </p>
+      <div class="subtext" *ngIf="pickupExpanded">
+        <small>There are dog bags available in all parts of the park.</small>
+      </div>
+    </div>
+    <div class="col-6">
+      <h2>Dallas City Dog Park Rules</h2>
+      <p>
+        No aggressive or dangerous dogs allowed.
+      </p>
+      <p>
+        No female dogs in heat are permitted in the park.
+      </p>
+      <p>
+        Please do not bring glass bottles into the park.
+      </p>
+      <p>
+        All pinch, prong or spiked collars must be removed.
+      </p>
+      <p>
+        Owners must fill in any hole dug by their dog(s).
+      </p>
+      <p>
+        Children under 12 must be strictly monitored.
+      </p>
+      <p>
+        No scooters, bikes, skateboards, etc. 
+      </p>
+  </div>
+  </div>
+</div>
+  

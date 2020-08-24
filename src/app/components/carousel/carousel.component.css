@@ -1,0 +1,14 @@
+#carousel {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+#carouselrow {
+    height: 100%;
+}
+
+img {
+    height: 325px;
+}

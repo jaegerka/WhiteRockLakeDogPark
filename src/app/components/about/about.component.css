@@ -1,0 +1,47 @@
+#parkhours {
+    text-align: center;
+}
+
+#address {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#info {
+    margin: auto;
+    text-align: left;
+    margin-top: 6%;
+}
+
+.row {
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+p {
+    font-size: 25px;
+    margin: 1%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+small {
+    font-size: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.subtext {
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    margin-top: 0;
+}
+
+.section {
+    float: left;
+    margin-left: 5%;
+}
+
+.content {
+    height: 400px;
+}

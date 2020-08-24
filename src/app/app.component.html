@@ -1,0 +1,55 @@
+<div id="content">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">White Rock Lake Dog Park</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#rules">Rules</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faqs">FAQs</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="alert alert-danger" role="alert">
+    Due to COVID-19, we ask that you try to distance at least 6 feet apart while using the park and please stay home if you are not feeling well. Stay safe!
+  </div>
+  <div class="jumbotron" id="home">
+    <h1 class="display-3">Welcome to White Rock Lake Dog Park!</h1>
+    <p>The dog park at White Rock Lake is Dallas's FIRST City Dog Park 
+      and was established in June 2001.</p>
+  </div>
+
+  <app-carousel></app-carousel>
+  <div id="pictureUpload">
+    <p>Want to see your pictures of the park?  Upload them <a href="">here</a>. </p>
+  </div>
+
+  <div class="jumbotron subheader" id="about">
+    <h1 class="display-4">About the Park</h1>
+  </div>
+  <app-about></app-about>
+
+  <div class="jumbotron suheader" id="rules">
+    <h1 class="display-4">Rules and Regulations</h1>
+  </div>
+  <app-parkrules></app-parkrules>
+
+  <div class="jumbotron subheader" id="faqs">
+    <h1 class="display-4">Frequently Asked Questions</h1>
+  </div>
+  <app-faqs></app-faqs>
+</div>
+
+<app-footer></app-footer>
